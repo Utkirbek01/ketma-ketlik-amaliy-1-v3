@@ -1,0 +1,1 @@
+# ketma-ketlik-amaliy-1-v3
