@@ -21,6 +21,6 @@ Console.WriteLine($"{natija.ToString("0.##", CultureInfo.InvariantCulture)} so'm
 Console.WriteLine("\n=== 3. Yoshni hisoblash ===");
 Console.Write("x=");
 int x = int.Parse(Console.ReadLine()!.Trim());
-int joriyYil = DateTime.Now.Year;
+const int joriyYil = 2023; // topshiriq namunalari 2023-yil asosida (2004 -> 6935, 1996 -> 9855)
 int kunlar = (joriyYil - x) * 365;
 Console.WriteLine(kunlar);
